@@ -1,0 +1,8 @@
+[core]
+    remote = myremote
+['remote "remote-storage"']
+    url = s3://mydvcbucket-pavankumar/dvcstore/
+    credentialpath = /home/pavan/aws-credentials
+    profile = default
+['remote "myremote"']
+    url = s3://mydvcbucket-pavankumar
